@@ -27,16 +27,16 @@ span, article, footer, time, small {
   margin: auto;
 }
 
-#game-canvas {
+#main-canvas {
   background: transparent;
   position: absolute;
   z-index: -1;
 }
 
-#ship-canvas {
+#controls-canvas {
   background: transparent;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
 }
 
 #background {
